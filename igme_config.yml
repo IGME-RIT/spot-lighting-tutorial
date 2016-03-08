@@ -1,9 +1,9 @@
-title: Point Lighting
+title: Spot Lighting
 author:
   name: IGME-RIT
   email:
   github: igme-rit
-description: This program demonstrates an implementation for point lighting in a scene.
+description: This program demonstrates an implementation for spot lighting in a scene.
 language: C++
 image:
   icon: https://cloud.githubusercontent.com/assets/10502938/13506660/28be0300-e14d-11e5-90e3-b194f14e52bd.PNG
