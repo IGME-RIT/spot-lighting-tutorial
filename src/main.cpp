@@ -1,7 +1,7 @@
 /*
 Title: Spot Light
 File Name: Main.cpp
-Copyright © 2015
+Copyright Â© 2015
 Original authors: Brockton Roth
 Written under the supervision of David I. Schwartz, Ph.D., and
 supported by a professional development seed grant from the B. Thomas
@@ -20,17 +20,6 @@ General Public License for more details.
 
 You should have received a copy of the GNU General Public License
 along with this program.  If not, see <http://www.gnu.org/licenses/>.
-
-References:
-http://www.tomdalling.com/blog/modern-opengl/08-even-more-lighting-directional-lights-spotlights-multiple-lights/
-
-Description:
-Takes the Standard3D project from Basic Shape Rendering and adds in a spot light. This involves adding a normal to each
-vertex (and thus, binding the normal and passing it into the Vertex Shader), modifying the normal by the world/model/transformation
-matrix, then passing it into the Fragment Shader and performing the calculations necessary. The diffuseColor, lightPosition,
-ambientCoefficient, attenuation, coneAngle and coneDirection values are hard-coded into the Fragment Shader, but could easily be
-extracted as variables passed in so that they could be dynamically modified. This project introduces the concepts of ambient
-lighting, attenuation, and gamma correction.
 */
 #define GLM_FORCE_RADIANS
 #include "GL/glew.h"
